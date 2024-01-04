@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    background-color: black;
+    font-family: monospace;
+    color: lightblue;
+    font-size: 30px ;
+    display: grid;
+    place-items: center;
+
+}
+
+div {
+    text-align: center;
+}
+
+
+#backend {
+    scale: -1;
+}
+
+@keyframes newrotation {
+    0% {rotate: 0deg;}
+    50% {rotate: 180deg;}
+    100% {rotate: 360deg;}
+}
+
+main{
+    animation: newrotation 10s infinite;
+}
